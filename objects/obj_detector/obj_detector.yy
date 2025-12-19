@@ -1,12 +1,11 @@
 {
   "$GMObject":"",
-  "%Name":"obj_buttonA",
+  "%Name":"obj_detector",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":2,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_buttonA",
+  "name":"obj_detector",
   "overriddenProperties":[],
   "parent":{
     "name":"Objects",
@@ -26,15 +25,13 @@
   "physicsShape":1,
   "physicsShapePoints":[],
   "physicsStartAwake":true,
-  "properties":[
-    {"$GMObjectProperty":"v2","%Name":"hspeed","filters":[],"listItems":[],"multiselect":false,"name":"hspeed","rangeEnabled":false,"rangeMax":10.0,"rangeMin":0.0,"resourceType":"GMObjectProperty","resourceVersion":"2.0","value":"2","varType":0,},
-  ],
+  "properties":[],
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_buttonA",
-    "path":"sprites/spr_buttonA/spr_buttonA.yy",
+    "name":"spr_detector",
+    "path":"sprites/spr_detector/spr_detector.yy",
   },
   "spriteMaskId":null,
   "visible":true,
