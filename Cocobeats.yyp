@@ -1,6 +1,6 @@
 {
   "$GMProject":"v1",
-  "%Name":"Rhythm tester",
+  "%Name":"Cocobeats",
   "AudioGroups":[
     {"$GMAudioGroup":"v1","%Name":"audiogroup_default","exportDir":"","name":"audiogroup_default","resourceType":"GMAudioGroup","resourceVersion":"2.0","targets":-1,},
   ],
@@ -33,7 +33,7 @@
   "MetaData":{
     "IDEVersion":"2024.14.1.210",
   },
-  "name":"Rhythm tester",
+  "name":"Cocobeats",
   "resources":[
     {"id":{"name":"obj_buttonA","path":"objects/obj_buttonA/obj_buttonA.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
