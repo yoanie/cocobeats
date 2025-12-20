@@ -6,8 +6,8 @@
   "name":"obj_buttonUP",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects",
-    "path":"folders/Objects.yy",
+    "name":"Gameplay Buttons",
+    "path":"folders/Objects/Gameplay Buttons.yy",
   },
   "parentObjectId":{
     "name":"obj_button_parent",
