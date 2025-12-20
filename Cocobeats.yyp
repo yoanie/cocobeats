@@ -36,7 +36,7 @@
   "isEcma":false,
   "LibraryEmitters":[],
   "MetaData":{
-    "IDEVersion":"2024.14.1.210",
+    "IDEVersion":"2024.14.2.213",
   },
   "name":"Cocobeats",
   "resources":[
@@ -47,6 +47,7 @@
     {"id":{"name":"obj_buttonUP","path":"objects/obj_buttonUP/obj_buttonUP.yy",},},
     {"id":{"name":"obj_detector","path":"objects/obj_detector/obj_detector.yy",},},
     {"id":{"name":"obj_gamecontroller","path":"objects/obj_gamecontroller/obj_gamecontroller.yy",},},
+    {"id":{"name":"obj_levelLoader","path":"objects/obj_levelLoader/obj_levelLoader.yy",},},
     {"id":{"name":"obj_play_button","path":"objects/obj_play_button/obj_play_button.yy",},},
     {"id":{"name":"obj_quit_button","path":"objects/obj_quit_button/obj_quit_button.yy",},},
     {"id":{"name":"obj_start_button","path":"objects/obj_start_button/obj_start_button.yy",},},
