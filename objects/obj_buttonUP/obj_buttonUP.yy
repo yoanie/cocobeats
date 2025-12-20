@@ -9,7 +9,10 @@
     "name":"Objects",
     "path":"folders/Objects.yy",
   },
-  "parentObjectId":null,
+  "parentObjectId":{
+    "name":"obj_button_parent",
+    "path":"objects/obj_button_parent/obj_button_parent.yy",
+  },
   "persistent":false,
   "physicsAngularDamping":0.1,
   "physicsDensity":0.5,
@@ -30,8 +33,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_buttonRIGHT",
-    "path":"sprites/spr_buttonRIGHT/spr_buttonRIGHT.yy",
+    "name":"spr_buttonUP",
+    "path":"sprites/spr_buttonUP/spr_buttonUP.yy",
   },
   "spriteMaskId":null,
   "visible":true,
