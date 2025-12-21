@@ -17,7 +17,7 @@ if(instance_exists(obj_detector)){
 	targetY = obj_detector.y;
 }
 
-hspeedPerSecond = 240;
+hspeedPerSecond = 500;
 
 while(!file_text_eof(file)){
 	k = file_text_read_real(file);
@@ -25,7 +25,7 @@ while(!file_text_eof(file)){
 	t = file_text_read_real(file);
 	file_text_readln(file);
 	
-	show_debug_message("key: "+string(k)+", millis: "+string(t));
+	//show_debug_message("key: "+string(k)+", millis: "+string(t));
 	
 	var noteToSpawn = obj_buttonLEFT;
 	switch (k){
@@ -43,7 +43,7 @@ while(!file_text_eof(file)){
 	}
 	
 	note = instance_create_layer(targetX-hspeedPerSecond*(t/1000), targetY, "Notes", noteToSpawn);
-	
+	note.hspeed = hspeedPerSecond/game_get_speed(gamespeed_fps);
 	
 }
 
