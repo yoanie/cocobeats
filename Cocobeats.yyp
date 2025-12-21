@@ -34,7 +34,8 @@
   "ForcedPrefabProjectReferences":[],
   "IncludedFiles":[
     {"$GMIncludedFile":"","%Name":"test.mp3","CopyToMask":-1,"filePath":"datafiles/chartfiles","name":"test.mp3","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
-    {"$GMIncludedFile":"","%Name":"test.txt","CopyToMask":-1,"filePath":"datafiles/chartfiles","name":"test.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"testEasy.txt","CopyToMask":-1,"filePath":"datafiles/chartfiles","name":"testEasy.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
+    {"$GMIncludedFile":"","%Name":"testHard.txt","CopyToMask":-1,"filePath":"datafiles/chartfiles","name":"testHard.txt","resourceType":"GMIncludedFile","resourceVersion":"2.0",},
   ],
   "isEcma":false,
   "LibraryEmitters":[],
@@ -58,6 +59,7 @@
     {"id":{"name":"rm_LevelSetup","path":"rooms/rm_LevelSetup/rm_LevelSetup.yy",},},
     {"id":{"name":"rm_Main","path":"rooms/rm_Main/rm_Main.yy",},},
     {"id":{"name":"rm_Menu","path":"rooms/rm_Menu/rm_Menu.yy",},},
+    {"id":{"name":"mus_test","path":"sounds/mus_test/mus_test.yy",},},
     {"id":{"name":"spr_buttonBASE","path":"sprites/spr_buttonBASE/spr_buttonBASE.yy",},},
     {"id":{"name":"spr_buttonDOWN","path":"sprites/spr_buttonDOWN/spr_buttonDOWN.yy",},},
     {"id":{"name":"spr_buttonLEFT","path":"sprites/spr_buttonLEFT/spr_buttonLEFT.yy",},},
