@@ -1,1 +1,0 @@
-self.hspeed = 500/game_get_speed(gamespeed_fps);
