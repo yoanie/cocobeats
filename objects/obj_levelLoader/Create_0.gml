@@ -43,7 +43,10 @@ while(!file_text_eof(file)){
 	}
 	
 	note = instance_create_layer(targetX-hspeedPerSecond*(t/1000), targetY, "Notes", noteToSpawn);
-	note.hspeed = hspeedPerSecond/game_get_speed(gamespeed_fps);
+	note.targetX = targetX
+	note.targetY = targetY
+	note.millis = t
+	note.hspeedPerSecond = hspeedPerSecond;
 }
 
 audio_play_sound(mus_test, 10, 0);

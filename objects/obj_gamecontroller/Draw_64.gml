@@ -1,2 +1,1 @@
-
-draw_text(85,64,"Score: "+ string(score))
+draw_text(85,64,"Score: "+ string(self.score))

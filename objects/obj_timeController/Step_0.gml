@@ -1,0 +1,1 @@
+self.millis = get_timer()/1000 - self.initMillis;
